@@ -7,7 +7,7 @@ python src/train_vanilla_lora.py \
   --output_dir results/lora_llama_sent/r16a32/1
 ```
 
-### Mast 생성
+### Mask 생성
 ```bash
 python src/make_lora_mask.py \
   --metric_jsonl results/lora_llama_sent/r16a32/1/compare_lora.jsonl \
